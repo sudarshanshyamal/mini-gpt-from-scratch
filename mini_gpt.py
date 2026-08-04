@@ -92,7 +92,7 @@ LEARNING_RATE = 3e-4    # Adam optimizer learning rate
 MAX_ITERS     = 2000    # Total training iterations
 EVAL_INTERVAL = 200     # Print loss every N iterations
 BATCH_SIZE    = 16      # Number of training sequences per batch
-DEVICE        = 'cpu'   # Use 'cuda' if you have a GPU; 'cpu' works fine here
+DEVICE        = 'cpu'   # Use 'mps' if you have Apple Silicon GPU; 'cuda' if you have nvidia GPU; 'cpu' works fine here
 
 print("─── Hyperparameters ───")
 print(f"  Block size (context length) : {BLOCK_SIZE}")

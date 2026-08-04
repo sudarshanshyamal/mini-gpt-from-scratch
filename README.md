@@ -52,7 +52,7 @@ That's it. No other dependencies.
 
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/mini-gpt-from-scratch.git
+git clone https://github.com/sudarshanshyamal/mini-gpt-from-scratch.git
 cd mini-gpt-from-scratch
 
 # Run training + generation
